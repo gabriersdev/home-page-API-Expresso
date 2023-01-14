@@ -1,0 +1,62 @@
+footer{
+  padding-top: 5rem;
+  background-color: #000;
+}
+
+footer a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: var(--cor-link-rodape-hover);
+  text-decoration: underline;
+}
+
+/* Estilização do conteúdo principal do FOOTER */
+footer .box-footer-principal{
+  display: flex;
+  justify-content: space-between;
+  line-height: 28px;
+}
+
+/* Estilização das DIVs (conteúdo principal) do FOOTER */
+footer .box-footer-principal div{
+  display: flex;
+  flex-flow: column wrap;
+  width: 20%;
+  margin: 0;
+}
+
+footer a i{
+  margin-left: 0.25rem;
+}
+
+/* Estilização do conteúdo adicional (extra) do FOOTER */
+footer .box-footer-informacoes-adicionais{
+  border-top: 1px solid #F8E578;
+  margin-top: 1.87rem;
+  padding: 1.56rem 0;
+  text-align: center;
+}
+
+
+/* Responsivo */
+@media screen and (max-width: 768px) {
+  footer .box-footer-principal{
+    display: block;
+  }
+
+  footer .box-footer-principal div{
+    width: auto;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  /* Estilização para tablet (não necessária) */ 
+}
+
+@media screen and (min-width: 1024px) {
+  /* Estilização para desktop (não necessário) */
+}

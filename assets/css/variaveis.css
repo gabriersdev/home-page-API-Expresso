@@ -1,0 +1,50 @@
+:root{
+
+  --cor-de-fundo: #000;
+  --cor-do-loader: #2631FF;
+
+  --cor-de-fundo-sumario-cabecalho: #808080;
+
+  --cor-de-fundo-sumario-titulo: #2631FF;
+  --cor-de-borda-sumario-item: #2631FF;
+  --cor-de-fundo-sumario-item-ativo: rgb(38, 49, 255, 0.25);
+  --cor-de-fundo-sumario-item-hover: rgb(38, 49, 255, 0.25);
+  --cor-de-borda-sumario-item-ativo: #F8E578;
+
+  --tamanho-fonte-titulo-h1: 4rem;
+  --tamanho-fonte-titulo-h3: 3rem;
+  --tamanho-fonte-titulo-h4: 1.5rem;
+  --tamanho-fonte-titulo-h5: 1.2rem;
+
+  --tamanho-margem-secoes: 5rem 0;
+  --tamanho-margens-laterais: 5rem;
+
+  --cor-de-fundo-marcador-cabecalho: #F8E578;
+
+  --cor-da-borda-funcao: #D3D3D3;
+  --cor-da-fonte-descricao: #A8A8B3;
+  --tamanho-fonte-funcao-texto: 1rem;
+  --cor-de-fonte-funcao-link: #F8E578;
+  
+  --cor-de-fundo-botao-copiar: rgb(0, 0, 0, 0.2);
+  --cor-de-conteudo-botao-copiar: #D3D3D3;
+  --cor-de-conteudo-botao-copiar-sucesso: #30C12D;
+  --cor-de-conteudo-botao-copiar-erro: #DA3400;
+  --cor-de-fundo-botao-copiar-hover: rgb(0, 0, 0, 0.4);
+  --cor-de-conteudo-botao-copiar-hover: #FFF;
+
+  --cor-titulo-erro: #F8E578;
+
+  --cor-link-contato: #F8E578;
+  --cor-link-rodape-hover: #F8E578;
+}
+
+@media screen and (min-width: 0) and (max-width: 767px) {
+  :root{
+    --tamanho-fonte-titulo-h1: 3rem;
+    --tamanho-fonte-titulo-h3: 2rem;
+    --tamanho-fonte-titulo-h4: 1.5rem;
+    --tamanho-fonte-titulo-h5: 1.2rem;
+    --tamanho-margens-laterais: 1rem;
+  }
+}

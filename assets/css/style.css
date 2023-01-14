@@ -1,0 +1,73 @@
+@import url(reset.css);
+@import url(variaveis.css);
+
+@import url(cabecalho.css);
+@import url(sumario.css);
+@import url(funcoes.css);
+@import url(importacao.css);
+@import url(codigos.css);
+@import url(demonstracao.css);
+@import url(diagnostico.css);
+@import url(contato.css);
+
+@import url(footer.css);
+@import url(loader.css);
+@import url(acoes-navegacao.css);
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background: url(../img/banner.png) top / contain no-repeat;
+  display: grid;
+  grid-template-columns: 80vw auto;
+  grid-template-rows: auto auto;
+  
+  background-color: #000;
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  position: relative;
+}
+
+.tudo{
+  margin-left: 5rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+@media screen and (min-width: 0px) and (max-width: 290px) {
+  body{
+    grid-template-columns: auto;
+  }
+  
+  .tudo{
+    margin: 0.5rem;
+  } 
+}
+
+@media screen and (min-width: 290px) and (max-width: 767px) {
+  body{
+    grid-template-columns: auto;
+  }
+  
+  .tudo{
+    margin: 0 2rem;
+  } 
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  body{
+    grid-template-columns: auto;
+  }
+  
+  .tudo{
+    margin: 0 2rem;
+  } 
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1360px) {
+  body{
+    grid-template-columns: 75vw auto;
+  }
+}

@@ -1,0 +1,29 @@
+.demonstracao{
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.demonstracao__titulo{
+  font-size: var(--tamanho-fonte-titulo-h3);
+  font-weight: 700;
+  margin: 2rem 0;
+  display: block;
+}
+
+.demonstracao__titulo__secundario{
+  font-size: var(--tamanho-fonte-titulo-h4);
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.demonstracao__descricao{
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.demonstracao__descricao:last-child{
+  margin-bottom: 0;
+}

@@ -1,0 +1,56 @@
+.conteudo-sumario{
+  position: fixed;
+  top: 50%;
+  right: 1%;
+  height: 100%;
+}
+
+.sumario{
+  background-color: transparent;
+  width: 15rem;
+  transform: translate(0, -50%);
+}
+
+.sumario__lista{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sumario__titulo{
+  background-color: var(--cor-de-fundo-sumario-titulo);
+  padding: 1.5rem;
+  border-radius: 5px 5px 0 0;
+}
+
+.sumario__item{
+  background-color: transparent;
+  border: 1px solid var(--cor-de-borda-sumario-item);
+  border-top: 0;
+  cursor: pointer;
+}
+
+.sumario__item:last-child{
+  border-radius: 0 0 5px 5px;
+}
+
+a.sumario__item__link{
+  text-decoration: none;
+  color: #FFF;
+  padding: 1.25rem;
+  display: block;
+}
+
+a.sumario__item__link.ativo{
+  background-color: var(--cor-de-fundo-sumario-item-ativo);
+  border-left: 5px solid var(--cor-de-borda-sumario-item-ativo);
+}
+
+a.sumario__item__link:hover{
+  background-color: var(--cor-de-fundo-sumario-item-hover);
+}
+
+@media screen and (min-width: 0) and (max-width: 1023px) {
+  .sumario{
+    display: none;
+  }
+}

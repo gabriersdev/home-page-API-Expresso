@@ -1,0 +1,47 @@
+.diagnostico{
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.diagnostico__titulo{
+  font-size: var(--tamanho-fonte-titulo-h3);
+  font-weight: 700;
+  margin: 2rem 0;
+  display: block;
+}
+
+.diagnostico__titulo__secundario{
+  font-size: var(--tamanho-fonte-titulo-h4);
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.diagnostico__erro{
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.diagnostico__erro:last-child{
+  margin-bottom: 0;
+}
+
+.diagnostico__erro__titulo{
+  color: var(--cor-titulo-erro);
+  font-size: var(--tamanho-fonte-titulo-h5);
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.diagnostico__erro__descricao{
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.diagnostico__erro__descricao:l:last-child{
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}

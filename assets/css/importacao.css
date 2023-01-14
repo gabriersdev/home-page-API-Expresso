@@ -1,0 +1,23 @@
+.importacao{
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.importacao__titulo{
+  font-size: var(--tamanho-fonte-titulo-h3);
+  font-weight: 700;
+  margin: 2rem 0;
+  display: block;
+}
+
+.importacao__descricao{
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.importacao__descricao:last-child{
+  margin-bottom: 0;
+}

@@ -1,0 +1,22 @@
+.contato{
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contato__titulo{
+  font-size: var(--tamanho-fonte-titulo-h3);
+  font-weight: 700;
+  margin: 2rem 0;
+  display: block;
+}
+
+.contato__link{
+  color: var(--cor-link-contato);
+}
+
+.contato__link:hover{
+  text-decoration: underline;
+}
