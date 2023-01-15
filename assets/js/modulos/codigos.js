@@ -11,7 +11,7 @@
     }
   }
   
-  const acionarCopiaCodigo = (evento) => {
+  const acionarCopiaCodigo = (evento, botao) => {
     const pre = evento.target.closest('pre');
     const code = pre.querySelector('code');
     
@@ -38,7 +38,7 @@
   const btnCopiaCodigo = document.querySelectorAll('[data-acao-copiar-codigo]');
   btnCopiaCodigo.forEach(botao => {
     botao.addEventListener('click', (evento) => {
-      acionarCopiaCodigo(evento);
+      acionarCopiaCodigo(evento, botao);
     })
   })
   

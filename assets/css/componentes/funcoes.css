@@ -70,10 +70,6 @@
     grid-template-columns: auto;
     grid-gap: 0.5rem;
   }
-
-  .funcao{
-    width: calc(100%);
-  }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1360px) {
@@ -81,8 +77,11 @@
     grid-template-columns: auto auto;
     grid-gap: 1rem;
   }
+}
 
-  .funcao{
-    width: calc(100%);
+@media screen and (min-width: 1360px) and (max-width: 1620px) {
+  .funcoes__lista{
+    grid-template-columns: auto auto auto;
+    grid-gap: 1rem;
   }
 }

@@ -2,17 +2,19 @@
 @import url(variaveis.css);
 
 @import url(cabecalho.css);
-@import url(sumario.css);
-@import url(funcoes.css);
-@import url(importacao.css);
-@import url(codigos.css);
-@import url(demonstracao.css);
-@import url(diagnostico.css);
-@import url(contato.css);
+
+@import url(./componentes/loader.css);
+@import url(./componentes/sumario.css);
+@import url(./componentes/acoes-navegacao.css);
+
+@import url(./componentes/funcoes.css);
+@import url(./componentes/importacao.css);
+@import url(./componentes/codigos.css);
+@import url(./componentes/demonstracao.css);
+@import url(./componentes/diagnostico.css);
+@import url(./componentes/contato.css);
 
 @import url(footer.css);
-@import url(loader.css);
-@import url(acoes-navegacao.css);
 
 html{
   scroll-behavior: smooth;
@@ -47,9 +49,9 @@ body{
   }
   
   .tudo{
-    margin-left: 0.5rem;
+    margin-left: 0.25rem;
     margin-top: 0;
-    margin-right: 0.5rem;
+    margin-right: 0.25rem;
     margin-bottom: 0;
   } 
 }
@@ -60,7 +62,7 @@ body{
   }
   
   .tudo{
-    margin: 0 2rem;
+    margin: 0 5%;
   } 
 }
 
