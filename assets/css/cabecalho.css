@@ -57,7 +57,7 @@
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border-radius: 0.25rem;
-  margin: 0.25rem;
+  margin: 0.25rem 0.125rem;
   background-color: var(--cor-de-fundo-sumario-item-ativo);
   border: 1px solid var(--cor-de-fundo-sumario-cabecalho);
   cursor: pointer;

@@ -19,7 +19,11 @@ html{
 }
 
 body{
-  background: url(../img/banner.png) top / contain no-repeat;
+  background: url(../img/banner.png);
+  background-position: top;
+  background-size: 200%;
+  background-repeat: no-repeat;
+
   display: grid;
   grid-template-columns: 80vw auto;
   grid-template-rows: auto auto;
@@ -39,10 +43,14 @@ body{
 @media screen and (min-width: 0px) and (max-width: 290px) {
   body{
     grid-template-columns: auto;
+    background-size: 400%;
   }
   
   .tudo{
-    margin: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
   } 
 }
 
@@ -69,5 +77,6 @@ body{
 @media screen and (min-width: 1024px) and (max-width: 1360px) {
   body{
     grid-template-columns: 75vw auto;
+    background-size: contain;
   }
 }
