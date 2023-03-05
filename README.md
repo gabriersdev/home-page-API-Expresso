@@ -29,5 +29,5 @@ O projeto é a home page para a API do Expresso Mobilidade (em desenvolvimento).
 - [Google Fonts][fonts_google] (fontes usadas: Inter e JetBrains Mono)
 
 [highlight]:https://highlightjs.org
-[bootstrap_icons]:icons.getbootstrap.com
+[bootstrap_icons]:https://icons.getbootstrap.com
 [fonts_google]:fonts.google.com
