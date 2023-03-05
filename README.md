@@ -30,4 +30,4 @@ O projeto é a home page para a API do Expresso Mobilidade (em desenvolvimento).
 
 [highlight]:https://highlightjs.org
 [bootstrap_icons]:https://icons.getbootstrap.com
-[fonts_google]:fonts.google.com
+[fonts_google]:https://fonts.google.com
