@@ -2,6 +2,8 @@
 
 O projeto é a home page para a API do Expresso Mobilidade (em desenvolvimento). Basicamente este projeto tem como objetivo oferecer aos interessados pela API uma documentação, com exemplos detalhados sobre o uso e as requisoções para a API.
 
+Você pode [acessar o projeto aqui][home_page_api_expresso] ou ver o [protótipo na Behance][prototipo]
+
 ## Funcionalidades
 
 - **Menu flutuante em algumas resoluções** <br>
@@ -28,6 +30,8 @@ O projeto é a home page para a API do Expresso Mobilidade (em desenvolvimento).
 - [Bootstrap Icons][bootstrap_icons]
 - [Google Fonts][fonts_google] (fontes usadas: Inter e JetBrains Mono)
 
+[home_page_api_expresso]:https://gabrieszin.github.io/home-page-API-Expresso/
+[prototipo]:https://www.behance.net/gallery/162334387/API-Expresso-Mobilidade
 [highlight]:https://highlightjs.org
 [bootstrap_icons]:https://icons.getbootstrap.com
 [fonts_google]:https://fonts.google.com
