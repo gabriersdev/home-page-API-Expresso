@@ -23,7 +23,9 @@
     }
   }
   
-  window.addEventListener('scroll', () => {
+  window.addEventListener('scroll', eventoScroll);
+
+  function eventoScroll(){
     const array = [
       {secao: 'apresentacao', valor: document.querySelector('header.cabecalho').getBoundingClientRect().top},
       {secao: 'funcoes', valor: document.querySelector('section.funcoes').getBoundingClientRect().top},
@@ -38,7 +40,7 @@
     
     limparClassesItensSumario();
     marcarItemAtivo(maisProximo.secao);
-  });
+  };
 
   document.querySelector('.conteudo-sumario').addEventListener('click', () => {
     verificarMudancaSecao();
