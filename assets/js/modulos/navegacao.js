@@ -1,4 +1,6 @@
 (() => {
+  const conteudoSumario = document.querySelector('.conteudo-sumario');
+
   const linksNavegacao = document.querySelectorAll('[data-navegacao]');
   linksNavegacao.forEach(link => {
     link.addEventListener('click', () => {
@@ -42,9 +44,11 @@
     marcarItemAtivo(maisProximo.secao);
   };
 
-  document.querySelector('.conteudo-sumario').addEventListener('click', () => {
-    verificarMudancaSecao();
-  })
+  const escutaSelecaoSumario = () => {
+    conteudoSumario.addEventListener('click', () => {
+      verificarMudancaSecao();
+    })
+  }
   
   const limparClassesItensSumario = () => {
     const sumario = document.querySelector('.sumario__lista');
@@ -96,4 +100,6 @@
       verificarMudancaSecao();
     })
   })
+
+  escutaSelecaoSumario();
 })();

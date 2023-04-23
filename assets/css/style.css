@@ -91,7 +91,8 @@ body{
   .importacao,
   .demonstracao,
   .diagnostico,
-  .contato{
+  .contato,
+  footer{
     scroll-snap-align: start;
   }
 }
