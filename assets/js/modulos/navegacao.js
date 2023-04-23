@@ -40,13 +40,15 @@
     const valor = 0;
     const maisProximo = array.reduce((a, b) => {return (Math.abs(a.valor - valor) < Math.abs(b.valor - valor) ? a : b)});
     
+    // removeEventListener('click', conteudoSumario);
+
     limparClassesItensSumario();
     marcarItemAtivo(maisProximo.secao);
   };
 
   const escutaSelecaoSumario = () => {
     conteudoSumario.addEventListener('click', () => {
-      verificarMudancaSecao();
+      // verificarMudancaSecao();
     })
   }
   
