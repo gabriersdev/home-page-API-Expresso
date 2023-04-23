@@ -64,7 +64,7 @@
 
   const acoesNavegacao = document.querySelectorAll('[data-acao-navegacao]');
   acoesNavegacao.forEach(acao => {
-    
+
     const tipo = acao.dataset.acaoNavegacao;
     
     acao.addEventListener('dblclick', () => {

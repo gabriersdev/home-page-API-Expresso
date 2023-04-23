@@ -27,7 +27,7 @@ body{
   background-position: top;
   background-size: 200%;
   background-repeat: no-repeat;
-
+  
   display: grid;
   grid-template-columns: 80vw auto;
   grid-template-rows: auto auto;
@@ -36,15 +36,6 @@ body{
   color: #FFF;
   font-family: 'Inter', sans-serif;
   position: relative;
-}
-
-.cabecalho,
-.funcoes,
-.importacao,
-.demonstracao,
-.diagnostico,
-.contato{
-  scroll-snap-align: start;
 }
 
 .tudo{
@@ -91,5 +82,16 @@ body{
   body{
     grid-template-columns: 75vw auto;
     background-size: contain;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cabecalho,
+  .funcoes,
+  .importacao,
+  .demonstracao,
+  .diagnostico,
+  .contato{
+    scroll-snap-align: start;
   }
 }
