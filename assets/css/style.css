@@ -18,9 +18,11 @@
 
 html{
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
 }
 
 body{
+  scroll-snap-type: y mandatory;
   background: url(../img/banner.png);
   background-position: top;
   background-size: 200%;
@@ -34,6 +36,15 @@ body{
   color: #FFF;
   font-family: 'Inter', sans-serif;
   position: relative;
+}
+
+.cabecalho,
+.funcoes,
+.importacao,
+.demonstracao,
+.diagnostico,
+.contato{
+  scroll-snap-align: start;
 }
 
 .tudo{
