@@ -81,7 +81,7 @@
         window.location.href = `#${secoesRolagem[(secoesRolagem.length - 1)]}`;
       }
       
-      verificarMudancaSecao();
+      // verificarMudancaSecao();
     })
     
     acao.addEventListener('click', () => {
@@ -99,7 +99,7 @@
         }
       }
       
-      verificarMudancaSecao();
+      // verificarMudancaSecao();
     })
   })
 
