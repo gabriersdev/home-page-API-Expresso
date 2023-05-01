@@ -21,15 +21,11 @@ html{
   scroll-snap-type: y mandatory;  
 }
 
-html section{
-  scroll-snap-align: start;
-}
-
 body{
   scroll-snap-type: y mandatory;
-  background: url(../img/banner.png);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)), url(../img/banner.png);
   background-position: top;
-  background-size: 200%;
+  /* background-size: 200%; */
   background-repeat: no-repeat;
   
   display: grid;
@@ -51,7 +47,7 @@ body{
 @media screen and (min-width: 0px) and (max-width: 290px) {
   body{
     grid-template-columns: auto;
-    background-size: 400%;
+    /* background-size: 400%; */
   }
   
   .tudo{
