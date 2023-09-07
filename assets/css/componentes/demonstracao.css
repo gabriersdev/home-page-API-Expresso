@@ -7,8 +7,9 @@
 }
 
 .demonstracao__titulo{
+  font-family: var(--fonte-family-titulo-h3);
   font-size: var(--tamanho-fonte-titulo-h3);
-  font-weight: 700;
+  font-weight: var(--fonte-weight-titulo-h3);
   margin: 2rem 0;
   display: block;
 }

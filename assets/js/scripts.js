@@ -1,4 +1,14 @@
+import { conteudos } from "./modulos/conteudos.js";
+import { codigos } from "./modulos/codigos.js";
+import { navegacao } from "./modulos/navegacao.js";
+import { funcaoFooter } from "./modulos/footer.js";
+
 (() => {
+  $('.tudo').html(conteudos.principal);
+  codigos();
+  navegacao();
+  funcaoFooter();
+
   hljs.highlightAll();
   
   window.addEventListener("load", () => {

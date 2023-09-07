@@ -16,6 +16,8 @@
 
 @import url(footer.css);
 
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700&display=swap');
+
 html{
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;  
@@ -24,6 +26,7 @@ html{
 body{
   scroll-snap-type: y mandatory;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)), url(../img/banner.png);
+  background-color: #000;
   background-position: top;
   /* background-size: 200%; */
   background-repeat: no-repeat;

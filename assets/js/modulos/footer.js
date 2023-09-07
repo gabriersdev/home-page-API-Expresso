@@ -1,4 +1,4 @@
-(() => {
+export const funcaoFooter = (() => {
   //Funções que são acionadas quando o usuário passar/tirar o mouse de um elemento
   function internalLink(elemento){
     const icone = document.createElement('i');
@@ -24,4 +24,4 @@
       noLink(evento.target);
     })
   })
-})();
+});

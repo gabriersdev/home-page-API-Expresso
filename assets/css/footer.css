@@ -41,6 +41,20 @@ footer .box-footer-informacoes-adicionais{
 
 
 /* Responsivo */
+@media screen and (max-width: 450px) {
+  .box-footer-informacoes-adicionais span:last-child{
+    display: none;
+  }
+
+  .box-footer-informacoes-adicionais span::after{
+    margin-left: 0.25rem;
+    content: "EX";
+    color: transparent;
+    border: 1px solid #F8E578;
+    background: url(../img/favicon.svg) center / contain no-repeat;
+  }
+}
+
 @media screen and (max-width: 768px) {
   footer .box-footer-principal{
     display: block;

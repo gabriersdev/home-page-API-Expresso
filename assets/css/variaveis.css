@@ -16,6 +16,9 @@
   --tamanho-fonte-titulo-h4: 1.5rem;
   --tamanho-fonte-titulo-h5: 1.2rem;
 
+  --fonte-weight-titulo-h3: 600;
+  --fonte-family-titulo-h3: 'Inter Tight', 'Inter', sans-serif;
+
   --tamanho-margem-secoes: 5rem 0;
   --tamanho-margens-laterais: 5rem;
 
