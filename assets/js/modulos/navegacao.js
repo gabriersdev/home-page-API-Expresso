@@ -4,7 +4,7 @@
   const linksNavegacao = document.querySelectorAll('[data-navegacao]');
   linksNavegacao.forEach(link => {
     link.addEventListener('click', () => {
-      window.location.href = `#${link.dataset.navegacao}`
+      window.location.href = `#${link.dataset.navegacao}`;
     })
   })
   

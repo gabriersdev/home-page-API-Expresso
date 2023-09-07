@@ -41,5 +41,4 @@
       acionarCopiaCodigo(evento, botao);
     })
   })
-  
 })();

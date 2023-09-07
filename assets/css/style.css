@@ -78,6 +78,16 @@ body{
   } 
 }
 
+@media screen and (max-height: 600px) {
+  body{
+    grid-template-columns: auto;
+  }
+
+  .tudo{
+    margin: 0 2rem;
+  }
+} 
+
 @media screen and (min-width: 1024px) and (max-width: 1360px) {
   body{
     grid-template-columns: 75vw auto;
