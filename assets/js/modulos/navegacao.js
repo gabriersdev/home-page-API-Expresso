@@ -57,14 +57,17 @@
     
     const linksSumario = sumario.querySelectorAll('[data-navegacao]');
     linksSumario.forEach(link => {
-      link.classList.value = 'sumario__item__link';
+      // link.classList.value = 'sumario__item__link';
+      $(link).removeClass('ativo');
     })
   }
 
   const marcarItemAtivo = (secao) => {
     const secaoAtiva = document.querySelectorAll(`[data-navegacao="${secao}"]`);
     secaoAtiva.forEach(secao => {
-      secao.classList.add('ativo');
+      // secao.classList.add('ativo');
+      // window.location.href = `#${secao.dataset.navegacao}`
+      $(secao).addClass('ativo');
     })
   }
 
