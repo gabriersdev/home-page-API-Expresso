@@ -1,3 +1,7 @@
+:root{
+  --border-radius-item-sumario-ativo: 5px;
+}
+
 .conteudo-sumario{
   position: fixed;
   top: 50%;
@@ -42,7 +46,11 @@ a.sumario__item__link{
 
 a.sumario__item__link.ativo{
   background-color: var(--cor-de-fundo-sumario-item-ativo);
-  border-left: 5px solid var(--cor-de-borda-sumario-item-ativo);
+  border-left: var(--border-radius-item-sumario-ativo) solid var(--cor-de-borda-sumario-item-ativo);
+}
+
+.sumario__lista li:last-child a.ativo{
+  border-bottom-left-radius: var(--border-radius-item-sumario-ativo);
 }
 
 a.sumario__item__link:hover{
