@@ -30,7 +30,7 @@ Você pode [acessar o projeto aqui][home_page_api_expresso] ou ver o [protótipo
 - [Bootstrap Icons][bootstrap_icons]
 - [Google Fonts][fonts_google] (fontes usadas: Inter e JetBrains Mono)
 
-[home_page_api_expresso]:https://gabrieszin.github.io/home-page-API-Expresso/
+[home_page_api_expresso]:https://gabriersdev.github.io/home-page-API-Expresso/
 [prototipo]:https://www.behance.net/gallery/162334387/API-Expresso-Mobilidade
 [highlight]:https://highlightjs.org
 [bootstrap_icons]:https://icons.getbootstrap.com
